@@ -2871,7 +2871,7 @@ endpoints:
           - ~openai/gpt-latest
           - ~openai/gpt-mini-latest
           - ~x-ai/grok-latest
-        fetch: false
+        fetch: true
       dropParams:
         - "stop"
       titleConvo: true
